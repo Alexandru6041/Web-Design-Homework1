@@ -144,6 +144,22 @@ nav a:hover {
     border: 1px solid #e0e0e0;
 }
 
+.h2-title-cv {
+    border-bottom: 2px solid #aea984;
+    padding-bottom: 0.5rem;
+}
+
+.title-project-cv {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.description-cv-paragraph {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
 #projects_title_main{
     text-align: center;
     color: white;
