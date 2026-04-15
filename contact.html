@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Chelariu Alexandru Gabriel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <p><strong>Chelariu Alexandru Gabriel</strong> - Get in Touch</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">Curriculum Vitae</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content" class="container">
+        <h1 id = "contact_h1_main">Contact Me</h1>
+
+        <section id = "contact_panel_main" class="panel">
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Project Inquiries & Feedback</legend>
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name (Required):</label>
+                        <input type="text" id="fullName" name="fullName" required aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address (Required):</label>
+                        <input type="email" name="email" required aria-required="true">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject / Topic:</label>
+                        <select id="subject" name="subject">
+                            <option value="freelance">Freelance</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="networking">Networking / Connect</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Chelariu Alexandru Gabriel | Web Design Homework 1</p>
+    </footer>
+</body>
+
+</html>
